@@ -11,4 +11,5 @@ number = gets.chomp.to_i
 
 inventory[item] = number
 
-puts inventory
+puts " you inventory now consist of #{inventory}."
+
