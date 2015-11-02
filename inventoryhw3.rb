@@ -11,5 +11,9 @@ number = gets.chomp.to_i
 
 inventory[item] = number
 
-puts " you inventory now consist of #{inventory}."
+inventory.each do |item, number |
+	puts "#{item} : #{number}"
+end
+
+
 
